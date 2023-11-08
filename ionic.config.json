@@ -1,0 +1,7 @@
+{
+  "name": "bibliofriki",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
