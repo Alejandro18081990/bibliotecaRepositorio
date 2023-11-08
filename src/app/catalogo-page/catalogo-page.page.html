@@ -1,0 +1,10 @@
+<app-header></app-header>
+<ion-content [fullscreen]="true">
+  <ion-list *ngFor="let dato of catalogo">
+    <ion-item color="danger" [routerLink]="['/libro-page',dato.id]">
+    <ion-label><img src="../../assets/covers/{{dato.isbn}}.jpg"></ion-label>
+     <ion-label>Titulo: {{dato.titulo}}</ion-label>
+     <ion-label>Autor/es: {{dato.autores}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

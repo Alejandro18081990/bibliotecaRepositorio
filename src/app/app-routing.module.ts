@@ -11,6 +11,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'catalogo-page',
+    loadChildren: () => import('./catalogo-page/catalogo-page.module').then( m => m.CatalogoPagePageModule)
+  },
+  {
+    path: 'mis-prestamos-page',
+    loadChildren: () => import('./mis-prestamos-page/mis-prestamos-page.module').then( m => m.MisPrestamosPagePageModule)
+  },
+  {
+    path: 'libro-page/:id',
+    loadChildren: () => import('./libro-page/libro-page.module').then( m => m.LibroPagePageModule)
+  },
 ];
 
 @NgModule({
