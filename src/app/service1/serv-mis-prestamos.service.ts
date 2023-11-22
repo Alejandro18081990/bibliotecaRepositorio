@@ -1,25 +1,30 @@
 import { Injectable } from '@angular/core';
+import { Libro } from '../interfaces/libro';
+import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
+import { HttpClient } from '@angular/common/http';
+import { ActivatedRoute, Route, Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ServMisPrestamosService {
-  listaPrestados: any[];
+  rutaJson = `${environment.apiURL}/librosPrestados`;
 
-  constructor() {
-    this.listaPrestados = [];
+  constructor(private http: HttpClient, private router : Router) {
+    
   }
 
-  getAll() {
-    return this.listaPrestados;
+  getAll() : Observable<Libro[]>{
+    return this.http.get<Libro[]>(`${environment.apiURL}/librosPrestados`);
   }
 
-  add(libroPrestado: any) {
-    this.listaPrestados.push(libroPrestado);
+  addLibroPrestado(nuevoLibro: Libro): Observable<Libro> {
+    return this.http.post<Libro>(`${environment.apiURL}/librosPrestados`,nuevoLibro);
+    
   }
 
-  delete(libro: any) {
-    var indiceLibro = this.listaPrestados.indexOf(libro);
-    this.listaPrestados.splice(indiceLibro, 1);
+  delete(idRecibida : number) : Observable<Libro> {    
+    return this.http.delete<Libro>(`${environment.apiURL}/librosPrestados/${idRecibida}`);
   }
 }

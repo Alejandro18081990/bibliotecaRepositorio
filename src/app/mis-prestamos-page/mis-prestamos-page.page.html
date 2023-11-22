@@ -1,13 +1,13 @@
 <app-header></app-header>
 
 <ion-content [fullscreen]="true">
-  <ion-card>
+  <ion-card *ngIf="librosEnPrestamo">
     <ion-list *ngFor="let libro of librosEnPrestamo" >
       <ion-item color="danger" >
         <img src="../../assets/covers/{{libro.isbn}}.jpg" width="100px" height="100px">
         <ion-label>Titulo: {{libro.titulo}}</ion-label>
         <ion-label>Autores: {{libro.autores}}</ion-label>
-        <ion-fab horizontal="end" (click)="deleteLibro(libro)">
+        <ion-fab horizontal="end" (click)="deleteLibro(libro.id)">
           <ion-fab-button color="danger">
             <ion-icon name="trash-outline"></ion-icon>
           </ion-fab-button>

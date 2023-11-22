@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ServMisPrestamosService } from '../service1/serv-mis-prestamos.service';
+import { Libro } from '../interfaces/libro';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-mis-prestamos-page',
@@ -7,15 +9,20 @@ import { ServMisPrestamosService } from '../service1/serv-mis-prestamos.service'
   styleUrls: ['./mis-prestamos-page.page.scss'],
 })
 export class MisPrestamosPagePage implements OnInit {
-  librosEnPrestamo: any;
-  constructor(private servicePrestado : ServMisPrestamosService) {
+  librosEnPrestamo!: Libro[];
+  constructor(private servicePrestado : ServMisPrestamosService, private router : Router) {
   }
 
   ngOnInit() {
-    this.librosEnPrestamo = (this.servicePrestado.getAll());
+    this.getAll();
   }
 
-  deleteLibro(libro : any){
-    this.servicePrestado.delete(libro);
+  deleteLibro(idLibro : number){
+    this.servicePrestado.delete(idLibro).subscribe(respuesta =>{});
+    this.servicePrestado.getAll().subscribe(respuesta => {this.librosEnPrestamo = respuesta});
+  }
+
+  getAll(){
+    this.servicePrestado.getAll().subscribe(respuesta => {this.librosEnPrestamo = respuesta});
   }
 }
