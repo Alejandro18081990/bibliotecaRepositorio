@@ -20,7 +20,6 @@ export class ServCatalogoService {
     }
 
     getLibro(idRecibida: number): Observable<Libro> {
-        console.log("Id enviada", idRecibida);
         return this.http.get<Libro>(`${environment.apiURL}/catalogo/${idRecibida}`)
     }
 }

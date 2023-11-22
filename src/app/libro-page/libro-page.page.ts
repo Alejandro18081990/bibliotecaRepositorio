@@ -34,7 +34,7 @@ export class LibroPagePage implements OnInit {
     })
   }
 
-  async presentToast(position: 'top' | 'middle' | 'bottom', mensaje : string) {
+  async presentToast(position: 'top' | 'middle' | 'bottom', mensaje: string) {
     const toast = await this.toastController.create({
       message: mensaje,
       duration: 600,
@@ -47,8 +47,8 @@ export class LibroPagePage implements OnInit {
 
   prestamoLibro() {
     this.servicesPrestamo.addLibroPrestado(this.libroRecibido)
-      .subscribe(() => {});
-      this.route.navigate(['mis-prestamos-page']);
-      this.presentToast('bottom','El libro ha sido añadido con exito')
-  } 
+      .subscribe(() => { });
+    this.presentToast('bottom', 'El libro ha sido añadido con exito')
+    this.route.navigate(['mis-prestamos-page']);
+  }
 }

@@ -318,31 +318,22 @@
   ],
   "librosPrestados": [
     {
-      "id": 7,
-      "isbn": "8445073729",
-      "titulo": "El Señor de Los Anillos, I",
-      "autores": "J. R. R. Tolkien",
-      "editorial": "No disponible",
-      "fecha": "2002",
-      "descripcion": "En la adormecida e idílica Comarca, un joven hobbit recibe un encargo: custodiar el Anillo Único y emprender el viaje para su destrucción en las Grietas del Destino. Acompañado por magos, hombres, elfos y enanos, atravesará la Tierra Media y se internará en las sombras de Mordor, perseguido siempre por las huestes de Sauron, el Señor Oscuro, dispuesto a recuperar su creación para establecer el dominio definitivo del Mal."
+      "id": 1,
+      "isbn": "8434469219",
+      "titulo": "El señor de los anillos y la filosofía",
+      "autores": "Gregory Bassham, Eric Bronson",
+      "editorial": "Grupo Planeta (GBS)",
+      "fecha": "2010-05-20",
+      "descripcion": "¿Nos resultaría aburrida la vida eterna en caso de que pudiéramos alcanzarla? ¿Qué virtudes son necesarias para que el poder no corrompa a quien lo tiene? ¿Se revelará la naturaleza contra la tecnología? Si un ente cae en el bosque y nadie lo oye, ¿hace ruido? Gregory Bassham y Eric Bronson dan respuesta a éstas y otras cuestiones planteadas en El Señor de los Anillos, la epopeya de J. R. R. Tolkien que, desde su publicación, ha vendido más de cincuenta millones de ejemplares y cuya riqueza y complejidad ha tejido una red cada vez más amplia de seguidores. Si la intención de Tolkien era crear «una historia que mantendría la atención del lector [...] y que a veces quizá lo excitaría o lo conmovería profundamente», consiguió también trasladar a su obra algunas de sus propias inquietudes filosóficas: la lucha del bien contra el mal, la oposición entre destino y libre albedrío, la búsqueda de la felicidad o la vida después de la muerte. Esta colección de ensayos además de ofrecernos una comprensión más fiel de las cuestiones que inspiran y nutren El Señor de los Anillos, supone una amena introducción a la filosofía, la religión y la mitología y una excelente carta de presentación a la cosmovisión de pensadores como Platón, Aristóteles o Nietzsche. Porque, como dice el mago filósofo Gandalf: \"Si has estado estos días con las orejas tapadas y la mente dormida, ¡es hora de que despiertes!"
     },
     {
-      "id": 8,
-      "isbn": "1465479007",
-      "titulo": "Ultimate Star Wars, New Edition",
-      "autores": "Adam Bray, Cole Horton, Tricia Barr, Ryder Windham",
-      "editorial": "National Geographic Books",
-      "fecha": "2019-10-04",
-      "descripcion": "Every significant Star Wars character, creature, location, battle, droid and vehicle: one ultimate encyclopedia. Packed full of information, stunning images, and now fully updated to include The Last Jedi, Solo: A Star Wars Story, Star Wars: Resistance, plus an exclusive look at The Rise of Skywalker. All the saga's iconic characters are here, from Darth Vader to Ponda Baba and Leia to Luminara Unduli. Amazing vehicles are explored, such as the Millennium Falcon and Ghost. Extraordinary technology is explained, including all your favourite lightsabers, and key events in the epic Star Wars story are richly unpacked, with behind-the-scenes insights. Ultimate Star Wars New Edition is the ideal go-to resource for fans who wish to brush up on their Star Wars knowledge, and for a new generation of fans eager to start their journey into a galaxy far, far away.... © & TM 2019 LUCASFILM LTD."
-    },
-    {
-      "id": 4,
-      "isbn": "8445073737",
-      "titulo": "El Señor de Los Anillos, Ii",
-      "autores": "J. R. R. Tolkien",
-      "editorial": "Minotauro Ediciones Avd",
-      "fecha": "2002",
-      "descripcion": "La Compañía se ha disuelto y sus integrantes emprenden caminos separados. Frodo y Sam continúan solos su viaje a lo largo del río Anduin, perseguidos por la sombra misteriosa de un ser extraño que también ambiciona la posesión del Anillo. Mientras, hombres, elfos y enanos se preparan para la batalla final contra las fuerzas del Señor del Mal."
+      "id": 2,
+      "isbn": "6070712749",
+      "titulo": "El Señor de Los Anillos 3.",
+      "autores": "John Ronald Reuel Tolkien",
+      "editorial": "Planeta Publishing",
+      "fecha": "2012-11-13",
+      "descripcion": "La última parte del viaje de Frodo y Sam Los ejércitos del Señor Oscuro van extendiendo cada vez más su maléfica sombra por la Tierra Media. Hombres, elfos y enanos unen sus fuerzas para presentar batalla a Sauron y sus huestes. Ajenos a estos preparativos, Frodo y Sam siguen adentrándose en el país de Mordor en su heroico viaje para destruir el Anillo de Poder en las Grietas del Destino."
     },
     {
       "id": 9,
@@ -352,6 +343,15 @@
       "editorial": "Dark Horse Comics",
       "fecha": "2019-11-19",
       "descripcion": "A full-color oversized hardcover volume that captures the development of the newest canonical and interactive addition to the Star Wars universe. A galaxy-spanning adventure awaits in Star Wars Jedi: Fallen Order, the new action-adventure videogame from Respawn Entertainment. Explore the artistic creation of Cal Kestis's quest to rebuild the Jedi Order as he learns the ways of the Force, travels to exotic worlds, and battles tyrannical foes. With detailed concept art of all-new characters, exciting weapons and equipment, and locales both familiar and new, this tome offers a behind-the-scenes look at the production of a hit game--all accompanied by intimate artists' commentary that reveals how this incredible universe is brought together. Dark Horse Books, Lucasfilm Limited, and Respawn Entertainment are honored to present The Art of Star Wars Jedi: Fallen Order, guiding readers on Cal's odyssey. This uniquely designed work is sure to thrill dedicated Jedi acolytes and gamers alike."
+    },
+    {
+      "id": 13,
+      "isbn": "055339147X",
+      "titulo": "A New Dawn: Star Wars",
+      "autores": "John Jackson Miller",
+      "editorial": "Del Rey",
+      "fecha": "2015-03-31",
+      "descripcion": "A long time ago in a galaxy far, far away. . . . “The war is over. The Separatists have been defeated, and the Jedi rebellion has been foiled. We stand on the threshold of a new beginning.”—Emperor Palpatine For a thousand generations, the Jedi Knights brought peace and order to the Galactic Republic, aided by their connection to the mystical energy field known as the Force. But they were betrayed—and the entire galaxy has paid the price. It is the Age of the Empire. Now Emperor Palpatine, once Chancellor of the Republic and secretly a Sith follower of the dark side of the Force, has brought his own peace and order to the galaxy. Peace through brutal repression, and order through increasing control of his subjects’ lives. But even as the Emperor tightens his iron grip, others have begun to question his means and motives. And still others, whose lives were destroyed by Palpatine’s machinations, lay scattered about the galaxy like unexploded bombs, waiting to go off. . . . The first Star Wars novel created in collaboration with the Lucasfilm Story Group, Star Wars: A New Dawn is set during the legendary “Dark Times” between Episodes III and IV and tells the story of how two of the lead characters from the animated series Star Wars Rebels first came to cross paths. Featuring a foreword by Dave Filoni. Praise for A New Dawn “A New Dawn is a fine start to the new Expanded Universe. [John Jackson] Miller steps confidently into the unexplored territory and owns it; he’s crafted a story with pacing and dialogue that feels like classic Star Wars.”—Nerdist “An entertaining adventure . . . with a cast of heroes that mixes laughter with intriguing depths of character. . . . John Jackson Miller packs in plenty of action and surprises.”—Roqoo Depot “A confidently told story that gives fans a lot of reason to be hopeful about what’s to come as we move into this new phase of Star Wars . . . The book certainly got me even more excited for Rebels and to see more of Kanan and Hera’s adventures. We’re also introduced to other characters I would love to see again at some point, whether on Rebels, in another book or, who knows, in live-action at some point.”—IGN “A New Dawn delivers a classic Star Wars experience that fans of all ages will be able to enjoy. It is extremely well-written, with an incredibly diverse cast too. Miller’s prose can easily suck readers in, and leave them speechless when 100 pages have flown by in the blink of an eye.”—Far Far Away Radio “A New Dawn brings us into this new dawn of storytelling with energy, excitement, and characters that have become instantly ensconced into the Star Wars vernacular, and the results will satisfy Star Wars fans of many different palates.”—Coffee with Kenobi “A New Dawn is a well-written novel full of intrigue and twists and turns that does an excellent job of letting Star Wars fans get to know Kanan and Hera.”—Tosche Station “A New Dawn finds an era never before written about in the Star Wars universe—the years prior to the original movie, Episode IV—in robust good health. The narrative takes place on two worlds and a handful of ships in between them, but as with the best of all Star Wars moments, hints at hidden depths beyond.”—Mashable"
     }
   ]
 }
